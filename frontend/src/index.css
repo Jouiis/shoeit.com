@@ -1,25 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-.header_wrapper {
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  background-color: #282c34;
+.container {
+    width: 90%;
+    margin: auto;
 }
 
-.header_wrapper a {
-  color: white;
-  font-weight: bold;
+.header-wrapper {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.header-wrapper a {
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 40px;
+}
+
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products-wrapper__item {
+    margin: 1rem;
+}
+
+.products-wrapper__item img {
+    width: 100%;
+    max-width: 350px;
 }
